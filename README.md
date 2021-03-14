@@ -2,10 +2,6 @@
 
 Build a simple Login/Register webpage
 
-**Preview**
-
-![](stagewood.gif)
-
 **Set up**
 * git clone https://github.com/captainflo/stagewood-interview.git
 * npm install (Server and Client side)
@@ -13,6 +9,15 @@ Build a simple Login/Register webpage
 * file .env insert your DATABASE_URL="mysql://xxxx:xxxxx@localhost:8889/xxxxx" 
 * npx prisma migrate dev --name init --preview-feature
 * npm run dev
+
+**Preview**
+
+![](setup.gif)
+
+**Demo**
+
+![](demo.gif)
+
 
 **Technologies Used**
 
@@ -40,5 +45,3 @@ Build a simple Login/Register webpage
 - bootstrap
 - @apollo/client
 - ...
-
-[Live Demo](https://stagewood-inter.herokuapp.com/)
