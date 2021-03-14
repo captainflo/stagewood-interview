@@ -7,19 +7,12 @@ Build a simple Login/Register webpage
 ![](stagewood.gif)
 
 **Set up**
-     * git clone https://github.com/captainflo/stagewood-interview.git
-     * npm install (Server and Client side)
-     * Date of the Event
-prisma/schema.prisma 
-     * datasource db {
-     * provider = "postgresql" (change to mysql if using it)
-     * url      = env("DATABASE_URL")
-     * }
-     * file .env insert your DATABASE_URL="mysql://xxxx:xxxxx@localhost:8889/xxxxx" 
-     * npx prisma migrate dev --name init --preview-feature
-
-run app
-     * npm run dev
+* git clone https://github.com/captainflo/stagewood-interview.git
+* npm install (Server and Client side)
+* prisma/schema.prisma (change prodiver line to postgresql or mysql)
+* file .env insert your DATABASE_URL="mysql://xxxx:xxxxx@localhost:8889/xxxxx" 
+* npx prisma migrate dev --name init --preview-feature
+* npm run dev
 
 **Technologies Used**
 
