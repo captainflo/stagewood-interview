@@ -8,8 +8,7 @@ Build a simple Login/Register webpage
 
 **Set up**
     * git clone https://github.com/captainflo/stagewood-interview.git
-  
-    *npm install (Server and Client side)
+    * npm install (Server and Client side)
 
    prisma/schema.prisma 
     * datasource db {
